@@ -1,0 +1,226 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>Screenshots</title>
+
+<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+<link rel="apple-touch-icon" sizes="57x57" href="apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192"  href="android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+<meta name="theme-color" content="#ffffff">
+<!--[if IE 7]>
+<!--<link rel="stylesheet" href="font-awesome/css/font-awesome-ie7.min.css">-->
+
+<link rel="stylesheet" type="text/css" href="fontawesome-free-5.7.2-web/css/all.min.css">
+<link rel="stylesheet" type="text/css" href="fontawesome-free-5.7.2-web/css/v4-shims.min.css">
+
+<!-- JQuery -->
+<script type="text/javascript" src="scripts/jquery-1.11.1.min.js"></script><link rel="stylesheet" type="text/css" href="chartist/chartist-plugin-tooltip/dist/chartist-plugin-tooltip.min.css">
+<link rel="stylesheet" type="text/css" href="chartist/dist/chartist.min.css">
+<script src="chartist/dist/chartist.min.js"></script>
+<script src="chartist/chartist-plugin-tooltip/dist/chartist-plugin-tooltip.min.js"></script>
+<!-- Required Stylesheets -->
+<link href="bootstrap-treeview/dist/bootstrap-treeview.min.css" rel="stylesheet">
+
+<!-- Required Javascript -->
+<script src="bootstrap-treeview/dist/bootstrap-treeview.min.js"></script><!-- DataTables -->
+<link type="text/css" href="datatables/1.10.19/datatables.min.css" rel="stylesheet" />
+<script type="text/javascript" src="datatables/1.10.19/datatables.min.js"></script>
+
+<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+<script src="bootstrap/js/bootstrap.min.js"></script>
+
+<script type="text/javascript" src="datatables/1.10.19/datatables.bootstrap4.min.js"></script>
+<link type="text/css" href="datatables/1.10.19/datatables.bootstrap4.min.css" rel="stylesheet" />
+<link rel="stylesheet" href="css/core.css"/>
+<link rel="stylesheet" href="css/link.css"/>
+<link type="text/css" media="screen" href="css/screen.css" rel="Stylesheet"/><!-- Nivo Slider -->
+<link rel="stylesheet" href="nivo-slider/3.2/nivo-slider.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="nivo-slider/3.2/themes/default/default.css" type="text/css" media="screen" />
+<script src="nivo-slider/3.2/jquery.nivo.slider.pack.js" type="text/javascript"></script>
+
+    <script type="text/javascript">
+
+        function getUrlVars() {
+            var vars = {};
+            var parts = window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi, function (m, key, value) {
+                vars[key] = value;
+            });
+            return vars;
+        }
+
+        var screenshotIndex = getUrlVars()["screenshot"];
+
+        $(window).load(function () {
+            $('#slider').nivoSlider({
+                startSlide: screenshotIndex,
+                effect: 'fade',
+                animSpeed: 200,
+                manualAdvance: true
+            });
+        });
+
+        $(window).keydown(function(e) {
+            switch(e.which) {
+                case 37:
+                    $('a.nivo-prevNav').click();
+                    break;
+                case 39:
+                    $('a.nivo-nextNav').click();
+                    break;
+            }
+        });
+    </script>
+
+</head>
+
+<body>
+<div id="topheader">
+    <div id="topbanner">
+        <div id="logo"><a href="index.html"><img src="images/serenity-logo.png" border="0"/></a></div>
+        <div id="projectname-banner" style="float:right">
+            <span class="projectname">
+                <span class="projecttitle">Demo Project using Serenity Screenplay and JUnit</span>
+                <span class="projectsubtitle"></span>
+            </span>
+        </div>
+    </div>
+</div>
+
+<div class="middlecontent">
+    <div id="contenttop">
+        <div class="middlebg">
+            <span class="breadcrumbs">
+                <a href="index.html">Home</a>
+                > <span class="truncate-40"><a
+                    href="78862944e23715ac2eb62e755bf5b9ff03aa72c959d0f22466d2cc62564016fa.html">Sign In Story</a></span>
+                > <span class="truncate-60"><a
+                    href="7f30df187481c61ac879b91b7a3f21f040d6743e28ddbfa34233da402f2083bf.html">Input email blank value </a></span>
+                > Screenshots
+            </span>
+        </div>
+        <div class="rightbg"></div>
+    </div>
+
+    <div class="clr"></div>
+
+    <!--/* starts second table*/-->
+<div>
+    <ul class="nav nav-tabs" role="tablist">
+        <li class="active">
+            <a href="#"><i class="fa fa-check-square-o"></i> Overall Test Results</a>
+        </li>
+        <li >
+            <a href="capabilities.html"><i class="fa fa-book"></i> Requirements</a>
+        </li>
+        <li >
+            <a href="576946480b52ad056d6f5bddf874399c83582ecf90963cc074a14c70580e7d9f.html"><i class="fa fa-comments-o"></i> Features</a>
+        </li>
+        <li >
+            <a href="2a4631d87648e59c428d4cf0e9247f9d286e4679f436ca2ce872e931eb4dfd58.html"><i class="fa fa-comments-o"></i> Stories</a>
+        </li>
+    </ul>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 18-06-2020 08:57</span>
+    <br style="clear:left"/>
+</div>
+
+    <div class="clr"></div>
+
+
+    <div id="contentbody">
+        <div class="titlebar">
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td>
+                            <div>
+                                <h3 class="discreet-story-header">
+                                    <i class="fa fa-2x fa-comments-o"></i>
+                                    <span class="story-header-title">Sign In Story </span>
+                                    <span class="badge tag-badge" style="">Story</span>
+                                </h3>
+
+                                <div class="discreet-requirement-narrative-title">
+                                
+                                </div>
+                            </div>
+
+                        </td>
+                        <td valign="top" align="right">
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td colspan="2" class="test-title-bar">
+                            <span class="outcome-icon"><a href='##beforetable'><i class='fa fa-check-circle-o success-icon fa-2x' title='SUCCESS'></i></a></span>
+                            <span class="test-case-title">
+                                <span class="success-color">Input email blank value
+                                    <span class="related-issue-title"></span>
+                                </span>
+                            </span>
+
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <div class="clr"></div>
+
+
+    <div id="beforetable"></div>
+    <div id="contenttilttle">
+        <div class="slider-wrapper theme-default">
+            <div id="slider">
+                <img src="0b53c0940e566fc3988b4687b83d944e23cd608068687b6618f4221636407fef.png" title=" Anna open signin" width="1440"/>
+                <img src="47dac9be9b4cc30e6425b962a2898e2a44517be015775ceb70ebcdc85d323338.png" title=" Anna clicks on sign in field" width="1440"/>
+                <img src="29a2ebe97576546fb3a806ee5d73c0a72bb647cf04bbb9953eb2a4f63a411ad4.png" title=" Anna clicks on sign in field (completed)" width="1440"/>
+                <img src="29a2ebe97576546fb3a806ee5d73c0a72bb647cf04bbb9953eb2a4f63a411ad4.png" title=" Anna open signin (completed)" width="1440"/>
+                <img src="68e005038a607e038e7b6d28b8e79013650068dcd19cdca7ab782aafdfaae249.png" title=" Anna sign in" width="1440"/>
+                <img src="68e005038a607e038e7b6d28b8e79013650068dcd19cdca7ab782aafdfaae249.png" title=" Anna enters '' into email field" width="1440"/>
+                <img src="68e005038a607e038e7b6d28b8e79013650068dcd19cdca7ab782aafdfaae249.png" title=" Anna enters 'abdc' into pass field" width="1440"/>
+                <img src="5b80a8d0bd61010bb0486f3fbdcb5933c53bed11b9bb97e0edbacaf30919f71e.png" title=" Anna enters 'abdc' into pass field (completed)" width="1440"/>
+                <img src="5b80a8d0bd61010bb0486f3fbdcb5933c53bed11b9bb97e0edbacaf30919f71e.png" title=" Anna clicks on sign in button" width="1440"/>
+                <img src="b56740148c1187efdb1c98a968f67d155ed20ca24fcdeacbd2a3704c3a412acc.png" title=" Anna clicks on sign in button (completed)" width="1440"/>
+                <img src="b56740148c1187efdb1c98a968f67d155ed20ca24fcdeacbd2a3704c3a412acc.png" title=" Anna sign in (completed)" width="1440"/>
+                <img src="f2234bc584b87f42d4ecfa4ba1ccdebf97cffafc29ba76b17bc3d762d02beb68.png" title=" Then sign in error email should be 'Please input Email'" width="1440"/>
+                <img src="f2234bc584b87f42d4ecfa4ba1ccdebf97cffafc29ba76b17bc3d762d02beb68.png" title=" Then sign in error email should be 'Please input Email' (completed)" width="1440"/>
+                <img src="b898289157b85476f05c1c08a5022db8a8cbbf93581c9f82637c57b687796cdb.png" title=" Anna sign in" width="1440"/>
+                <img src="b898289157b85476f05c1c08a5022db8a8cbbf93581c9f82637c57b687796cdb.png" title=" Anna enters 'koten@gmail.com' into email field" width="1440"/>
+                <img src="b898289157b85476f05c1c08a5022db8a8cbbf93581c9f82637c57b687796cdb.png" title=" Anna enters '' into pass field" width="1440"/>
+                <img src="42998a232accc82059d6930fceaebf4befd6a87e966e38e81859c17162450961.png" title=" Anna enters '' into pass field (completed)" width="1440"/>
+                <img src="42998a232accc82059d6930fceaebf4befd6a87e966e38e81859c17162450961.png" title=" Anna clicks on sign in button" width="1440"/>
+                <img src="6329696de170ef4d57a88b30019da96c5ab98106848be048044fb8b510874cda.png" title=" Anna clicks on sign in button (completed)" width="1440"/>
+                <img src="6329696de170ef4d57a88b30019da96c5ab98106848be048044fb8b510874cda.png" title=" Anna sign in (completed)" width="1440"/>
+                <img src="f9a77b18dfd87b99235576636ef9f6eb3ad593997612e6dddf4935ff5c6a5ac4.png" title=" Then sign in error pass should be 'Please input Password': <span class='success-color'>SUCCESS</span>" width="1440"/>
+            </div>
+        </div>
+
+
+    </div>
+</div>
+<div id="beforefooter"></div>
+<div id="bottomfooter">
+    <span class="version">Serenity BDD version 2.0.81</span>
+</div>
+</body>
+</html>
