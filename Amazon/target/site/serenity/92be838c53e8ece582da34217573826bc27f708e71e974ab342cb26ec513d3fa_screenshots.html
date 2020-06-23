@@ -135,7 +135,7 @@
             <a href="2a4631d87648e59c428d4cf0e9247f9d286e4679f436ca2ce872e931eb4dfd58.html"><i class="fa fa-comments-o"></i> Stories</a>
         </li>
     </ul>
-    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 18-06-2020 09:30</span>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 22-06-2020 18:04</span>
     <br style="clear:left"/>
 </div>
 
@@ -170,9 +170,9 @@
                 <table class="outcome-header">
                     <tr>
                         <td colspan="2" class="test-title-bar">
-                            <span class="outcome-icon"><a href='##beforetable'><i class='fa fa-check-circle-o success-icon fa-2x' title='SUCCESS'></i></a></span>
+                            <span class="outcome-icon"><a href='##beforetable'><i class='fa fa-times-circle failure-icon fa-2x' title='FAILURE'></i></a></span>
                             <span class="test-case-title">
-                                <span class="success-color">Search results
+                                <span class="failing-color">Search results
                                     <span class="related-issue-title"></span>
                                 </span>
                             </span>
@@ -189,26 +189,64 @@
 
     <div id="beforetable"></div>
     <div id="contenttilttle">
+            <div class="screenshotFailure panel panel-danger">
+
+    <div style="display:block">
+        <div class="table">
+            <div class="row">
+                <div class="col-sm-10" style="padding-left:1.5em; padding-top:0.5em; padding-bottom:0.5em;">
+                    <span class="error-message error-message-title"><br>Expected: an element that is visible<br>     but: no matching element found by xpath: //*[@text='SUPCASE']</span>
+                </div>
+                <div class="col-sm-2">
+                    <a class="btn btn-warning details-button" data-toggle="collapse" href="#stacktraceModal-overall""
+                       role="button" aria-expanded="false" aria-controls="multiCollapseExample1"><i class="far fa-eye"></i> More details</a>
+                </div>
+             </div>
+        </div>
+    <div>
+
+    <!-- Details Section -->
+    <div class="row stacktrace-details">
+      <div class="col">
+        <div class="collapse multi-collapse" id="stacktraceModal-overall">
+            <div class="card">
+                <div class="card-header">
+                    <h4>java.lang.AssertionError </h4>
+                </div>
+                <div class="card-body">
+                    <div>
+                        <pre>Amazon.features.search.SearchIteamStory.search_results(SearchIteamStory.java:37)<br /></pre>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+                <div class="panel-body">
+                    <a href="#" target="_blank" class="btn btn-info">HTML Source</a>
+                </div>
+            </div>
         <div class="slider-wrapper theme-default">
             <div id="slider">
-                <img src="778429fd068477f09b821a2a45f70026bd1c484034f6e046c906154900426007.png" title=" Anna search" width="1440"/>
-                <img src="778429fd068477f09b821a2a45f70026bd1c484034f6e046c906154900426007.png" title=" Anna clicks on skip sign in button" width="1440"/>
-                <img src="d1a6dfeb10409dde7b5fceb3a0694edb7e77755155c9993f059a0f4f7004042d.png" title=" Anna clicks on skip sign in button (completed)" width="1440"/>
-                <img src="d1a6dfeb10409dde7b5fceb3a0694edb7e77755155c9993f059a0f4f7004042d.png" title=" Anna clicks on search field" width="1440"/>
-                <img src="0fcec3f397a10266ec17660609d2033ceb0adb76081fa21bed95c05b41728347.png" title=" Anna clicks on search field (completed)" width="1440"/>
-                <img src="0fcec3f397a10266ec17660609d2033ceb0adb76081fa21bed95c05b41728347.png" title=" Anna enters 'Samsung galaxy s10 plus case' into search field" width="1440"/>
-                <img src="e4f004839ab7653d73b147f8262230108cca7beeef8d8061cb9e03fc00fb67e0.png" title=" Anna enters 'Samsung galaxy s10 plus case' into search field (completed)" width="1440"/>
-                <img src="e4f004839ab7653d73b147f8262230108cca7beeef8d8061cb9e03fc00fb67e0.png" title=" Anna press" width="1440"/>
-                <img src="1d5860f19327914cc99419d57169ce09ac6003aac899a68f29c878eead6c2b3a.png" title=" Anna press (completed)" width="1440"/>
-                <img src="1d5860f19327914cc99419d57169ce09ac6003aac899a68f29c878eead6c2b3a.png" title=" Anna search (completed)" width="1440"/>
-                <img src="62cb27e731fd704fd051edb177f7961bf564d540e7f8071ee36dc3501023bbd1.png" title=" Anna wait " width="1440"/>
-                <img src="0a2bbe12fd493158d78ffeee2f2cf235da5c89a4ce2e3a892ee9f77498b8d34d.png" title=" Anna items list" width="1440"/>
-                <img src="0a2bbe12fd493158d78ffeee2f2cf235da5c89a4ce2e3a892ee9f77498b8d34d.png" title=" Anna clicks on [[io.appium.java_client.android.AndroidDriver, Capabilities: {app=E:\AutoTest\Appium\Day1\APK\amazon-v1.apk, appPackage=com.amazon.mShop.android.shopping, automationName=uiautomator2, databaseEnabled=false, desired={platformName=android, hub=http://127.0.0.1:4723/wd/hub, loggingPrefs={}, app=E:\AutoTest\Appium\Day1\APK\amazon-v1.apk, automationName=uiautomator2, deviceName=192.168.105.103:5555, newCommandTimeout=3000, platformVersion=8.1}, deviceApiLevel=27, deviceManufacturer=unknown, deviceModel=Samsung Galaxy S8, deviceName=192.168.105.103:5555, deviceScreenDensity=480, deviceScreenSize=1440x2960, deviceUDID=192.168.105.103:5555, hub=http://127.0.0.1:4723/wd/hub, javascriptEnabled=true, locationContextEnabled=false, loggingPrefs=org.openqa.selenium.logging.LoggingPreferences@0, networkConnectionEnabled=true, newCommandTimeout=3000, pixelRatio=3, platform=LINUX, platformName=Android, platformVersion=8.1.0, statBarHeight=72, takesScreenshot=true, viewportRect={left=0, top=72, width=1440, height=2744}, warnings={}, webStorageEnabled=false}] -&gt; xpath: //*[@text=&quot;Tap and long press to fling this item to your tray.&quot;]]" width="1440"/>
-                <img src="0a2bbe12fd493158d78ffeee2f2cf235da5c89a4ce2e3a892ee9f77498b8d34d.png" title=" Anna items list (completed)" width="1440"/>
-                <img src="e6da1aa0182f0dc80f8f074f1ba547509f14617600bfe5f3ad247e0a418fc3e6.png" title=" Anna wait " width="1440"/>
-                <img src="d08011e9f971412e41982454b66fe3f1e0f6d47ae73a2ee52498dcd6d785fb58.png" title=" Then product name should be (true)" width="1440"/>
-                <img src="d08011e9f971412e41982454b66fe3f1e0f6d47ae73a2ee52498dcd6d785fb58.png" title=" Then product desc should be (true)" width="1440"/>
-                <img src="d08011e9f971412e41982454b66fe3f1e0f6d47ae73a2ee52498dcd6d785fb58.png" title=" Then price should be (true): <span class='success-color'>SUCCESS</span>" width="1440"/>
+                <img src="2dc5a5ada949c8552fb1ae34caad439670e3e0a770d4f936520b26d9e169bdc6.png" title=" Anna search" width="1080"/>
+                <img src="2dc5a5ada949c8552fb1ae34caad439670e3e0a770d4f936520b26d9e169bdc6.png" title=" Anna clicks on done language in button" width="1080"/>
+                <img src="39960204436189de2053fb6a1f8d1a975c8dedae15efd1a2677af24ec7d21947.png" title=" Anna clicks on done language in button (completed)" width="1080"/>
+                <img src="39960204436189de2053fb6a1f8d1a975c8dedae15efd1a2677af24ec7d21947.png" title=" Anna clicks on skip sign in button" width="1080"/>
+                <img src="633f59c17090fe615854869acc55b9268dfd620101bbbe9ac55abb84a680b74a.png" title=" Anna clicks on skip sign in button (completed)" width="1080"/>
+                <img src="633f59c17090fe615854869acc55b9268dfd620101bbbe9ac55abb84a680b74a.png" title=" Anna clicks on search field" width="1080"/>
+                <img src="df1e28087f6940732c9c850154d0824c61d5d48cf57b995f7121097a7d090d41.png" title=" Anna clicks on search field (completed)" width="1080"/>
+                <img src="df1e28087f6940732c9c850154d0824c61d5d48cf57b995f7121097a7d090d41.png" title=" Anna enters 'Samsung galaxy s10 plus case' into search field" width="1080"/>
+                <img src="e11471ca0d36bdada0b981cea73c5855739205143d4be18ddfd980b2b4a8798f.png" title=" Anna enters 'Samsung galaxy s10 plus case' into search field (completed)" width="1080"/>
+                <img src="e11471ca0d36bdada0b981cea73c5855739205143d4be18ddfd980b2b4a8798f.png" title=" Anna press" width="1080"/>
+                <img src="6197a0976dc1b880187b7919a9ef9d17a39705e9cb76772affe4248b81578a3c.png" title=" Anna press (completed)" width="1080"/>
+                <img src="6197a0976dc1b880187b7919a9ef9d17a39705e9cb76772affe4248b81578a3c.png" title=" Anna search (completed)" width="1080"/>
+                <img src="1d6f4d8dffc1560697816f69602ef85be3a997d09dd586928261c129d72704bd.png" title=" Anna items list" width="1080"/>
+                <img src="1d6f4d8dffc1560697816f69602ef85be3a997d09dd586928261c129d72704bd.png" title=" Anna clicks on [[io.appium.java_client.android.AndroidDriver, Capabilities: {app=E:\AutoTest\Appium\Day1\APK\Amazon-v11.apk, appPackage=com.amazon.mShop.android.shopping, appWaitActivity=com.amazon.mShop.startup.StartupLocalizationSelectionMigrationActivity, appWaitPackage=com.amazon.mShop.android.shopping, automationName=uiautomator2, databaseEnabled=false, desired={platformName=android, hub=http://localhost:4723/wd/hub, loggingPrefs={}, app=E:\AutoTest\Appium\Day1\APK\Amazon-v11.apk, appWaitActivity=com.amazon.mShop.startup.StartupLocalizationSelectionMigrationActivity, appWaitPackage=com.amazon.mShop.android.shopping, automationName=uiautomator2, deviceName=470876990104, newCommandTimeout=3000, platformVersion=7.0}, deviceApiLevel=24, deviceManufacturer=Xiaomi, deviceModel=Redmi Note 4, deviceName=470876990104, deviceScreenDensity=480, deviceScreenSize=1080x1920, deviceUDID=470876990104, hub=http://localhost:4723/wd/hub, javascriptEnabled=true, locationContextEnabled=false, loggingPrefs=org.openqa.selenium.logging.LoggingPreferences@0, networkConnectionEnabled=true, newCommandTimeout=3000, pixelRatio=3, platform=LINUX, platformName=Android, platformVersion=7.0, statBarHeight=72, takesScreenshot=true, viewportRect={left=0, top=72, width=1080, height=1848}, warnings={}, webStorageEnabled=false}] -&gt; xpath: //android.widget.Image[@index=0]]" width="1080"/>
+                <img src="3e23f72e5d725bcd780bdabd288451892f5983c9967cb1a166026559243d75e4.png" title=" Anna clicks on [[io.appium.java_client.android.AndroidDriver, Capabilities: {app=E:\AutoTest\Appium\Day1\APK\Amazon-v11.apk, appPackage=com.amazon.mShop.android.shopping, appWaitActivity=com.amazon.mShop.startup.StartupLocalizationSelectionMigrationActivity, appWaitPackage=com.amazon.mShop.android.shopping, automationName=uiautomator2, databaseEnabled=false, desired={platformName=android, hub=http://localhost:4723/wd/hub, loggingPrefs={}, app=E:\AutoTest\Appium\Day1\APK\Amazon-v11.apk, appWaitActivity=com.amazon.mShop.startup.StartupLocalizationSelectionMigrationActivity, appWaitPackage=com.amazon.mShop.android.shopping, automationName=uiautomator2, deviceName=470876990104, newCommandTimeout=3000, platformVersion=7.0}, deviceApiLevel=24, deviceManufacturer=Xiaomi, deviceModel=Redmi Note 4, deviceName=470876990104, deviceScreenDensity=480, deviceScreenSize=1080x1920, deviceUDID=470876990104, hub=http://localhost:4723/wd/hub, javascriptEnabled=true, locationContextEnabled=false, loggingPrefs=org.openqa.selenium.logging.LoggingPreferences@0, networkConnectionEnabled=true, newCommandTimeout=3000, pixelRatio=3, platform=LINUX, platformName=Android, platformVersion=7.0, statBarHeight=72, takesScreenshot=true, viewportRect={left=0, top=72, width=1080, height=1848}, warnings={}, webStorageEnabled=false}] -&gt; xpath: //android.widget.Image[@index=0]] (completed)" width="1080"/>
+                <img src="3e23f72e5d725bcd780bdabd288451892f5983c9967cb1a166026559243d75e4.png" title=" Anna items list (completed)" width="1080"/>
+                <img src="2c0d4bdeab7ab7977a8e4ce986aa04ce711e5f4af813a0ebef6bc36155a16188.png" title=" Anna wait : <span class='failing-color'>FAILURE</span>" width="1080"/>
             </div>
         </div>
 

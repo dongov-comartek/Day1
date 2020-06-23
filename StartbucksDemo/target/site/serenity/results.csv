@@ -1,0 +1,3 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"Sign in story","Input email blank value","ERROR","2020-06-22T11:08:57.527+07:00[Asia/Bangkok]","0.0","33.78"
+"Teams of use story","Teams of use verify title","FAILURE","2020-06-22T11:09:31.993+07:00[Asia/Bangkok]","0.0","28.95"

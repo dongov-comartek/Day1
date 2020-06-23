@@ -135,7 +135,7 @@
             <a href="2a4631d87648e59c428d4cf0e9247f9d286e4679f436ca2ce872e931eb4dfd58.html"><i class="fa fa-comments-o"></i> Stories</a>
         </li>
     </ul>
-    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 18-06-2020 08:57</span>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 22-06-2020 11:09</span>
     <br style="clear:left"/>
 </div>
 
@@ -170,9 +170,9 @@
                 <table class="outcome-header">
                     <tr>
                         <td colspan="2" class="test-title-bar">
-                            <span class="outcome-icon"><a href='##beforetable'><i class='fa fa-check-circle-o success-icon fa-2x' title='SUCCESS'></i></a></span>
+                            <span class="outcome-icon"><a href='##beforetable'><i class='fa fa-times-circle failure-icon fa-2x' title='FAILURE'></i></a></span>
                             <span class="test-case-title">
-                                <span class="success-color">Teams of use verify title
+                                <span class="failing-color">Teams of use verify title
                                     <span class="related-issue-title"></span>
                                 </span>
                             </span>
@@ -189,15 +189,54 @@
 
     <div id="beforetable"></div>
     <div id="contenttilttle">
+            <div class="screenshotFailure panel panel-danger">
+
+    <div style="display:block">
+        <div class="table">
+            <div class="row">
+                <div class="col-sm-10" style="padding-left:1.5em; padding-top:0.5em; padding-bottom:0.5em;">
+                    <span class="error-message error-message-title">Assertion error: Expected: (true) but: was (false)</span>
+                </div>
+                <div class="col-sm-2">
+                    <a class="btn btn-warning details-button" data-toggle="collapse" href="#stacktraceModal-overall""
+                       role="button" aria-expanded="false" aria-controls="multiCollapseExample1"><i class="far fa-eye"></i> More details</a>
+                </div>
+             </div>
+        </div>
+    <div>
+
+    <!-- Details Section -->
+    <div class="row stacktrace-details">
+      <div class="col">
+        <div class="collapse multi-collapse" id="stacktraceModal-overall">
+            <div class="card">
+                <div class="card-header">
+                    <h4>java.lang.AssertionError </h4>
+                </div>
+                <div class="card-body">
+                    <div>
+                        <pre>StartbucksDemo.features.search.TeamsOfUseStory.teams_of_use_verify_title(TeamsOfUseStory.java:33)<br /></pre>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+                <div class="panel-body">
+                    <a href="pagesource8252815255397280968.html.txt" target="_blank" class="btn btn-info">HTML Source</a>
+                </div>
+            </div>
         <div class="slider-wrapper theme-default">
             <div id="slider">
-                <img src="272e4e73149be1d0b553b84c6f52b3b03156af190922dddc1de0f5f7bc5febfa.png" title=" Anna team of use" width="1440"/>
-                <img src="272e4e73149be1d0b553b84c6f52b3b03156af190922dddc1de0f5f7bc5febfa.png" title=" Anna clicks on setting field" width="1440"/>
-                <img src="fc95a442f5a5500efb36e4f758da6c767a6d0c86a4ff0ca5ffccca7621ccf90c.png" title=" Anna clicks on setting field (completed)" width="1440"/>
-                <img src="fc95a442f5a5500efb36e4f758da6c767a6d0c86a4ff0ca5ffccca7621ccf90c.png" title=" Anna clicks on Terms of usen field" width="1440"/>
-                <img src="923178df1b7c4fcd6648a3b46ebdcb3b52be818328c4f971f1c1919a359e647b.png" title=" Anna clicks on Terms of usen field (completed)" width="1440"/>
-                <img src="923178df1b7c4fcd6648a3b46ebdcb3b52be818328c4f971f1c1919a359e647b.png" title=" Anna team of use (completed)" width="1440"/>
-                <img src="683719607a238a7b2c19d6f7256477b085bf0a2bf023883c0b4ad93bb48e1642.png" title=" Then title teams should be (true): <span class='success-color'>SUCCESS</span>" width="1440"/>
+                <img src="215276794f6296969226609839f92779dc67d0699235d65b4455753805c704f1.png" title=" Anna team of use" width="1440"/>
+                <img src="215276794f6296969226609839f92779dc67d0699235d65b4455753805c704f1.png" title=" Anna clicks on setting field" width="1440"/>
+                <img src="fade9dc6a6b9c13fc4350c11a9b2ad8415537a67faa7f2124682cfd5ebf0b82f.png" title=" Anna clicks on setting field (completed)" width="1440"/>
+                <img src="fade9dc6a6b9c13fc4350c11a9b2ad8415537a67faa7f2124682cfd5ebf0b82f.png" title=" Anna clicks on Terms of usen field" width="1440"/>
+                <img src="17aea3e67bb9e66cb7e92e59dd46c7bfa9713521d0aa08a6fca26ecf21f5fd28.png" title=" Anna clicks on Terms of usen field (completed)" width="1440"/>
+                <img src="17aea3e67bb9e66cb7e92e59dd46c7bfa9713521d0aa08a6fca26ecf21f5fd28.png" title=" Anna team of use (completed)" width="1440"/>
+                <img src="5ab493a7eeba6efb4e21a5c37399854c8fd507f47e03579eb1c5eb714166a110.png" title=" Then title teams should be (true): <span class='failing-color'>FAILURE</span>" width="1440"/>
             </div>
         </div>
 

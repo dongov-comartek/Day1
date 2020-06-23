@@ -1,6 +1,8 @@
 package Amazon.tasks;
 
 import Amazon.actions.Press;
+import Amazon.ui.ItemScreen;
+import Amazon.ui.LoginScreen;
 import io.appium.java_client.android.nativekey.AndroidKey;
 import net.serenitybdd.screenplay.Actor;
 import net.serenitybdd.screenplay.Performable;
@@ -9,9 +11,11 @@ import net.serenitybdd.screenplay.actions.Click;
 import net.serenitybdd.screenplay.actions.ClickOnBy;
 import net.serenitybdd.screenplay.actions.Enter;
 import net.serenitybdd.screenplay.actions.Hit;
+import net.serenitybdd.screenplay.waits.WaitUntil;
 import net.thucydides.core.annotations.Step;
 
 import static net.serenitybdd.screenplay.Tasks.instrumented;
+import static net.serenitybdd.screenplay.matchers.WebElementStateMatchers.isVisible;
 import static org.openqa.selenium.Keys.ENTER;
 
 import Amazon.ui.HomeScreen;
@@ -24,6 +28,7 @@ public class Search  implements Task {
 
     public <T extends Actor> void performAs(T actor) {
         actor.attemptsTo(
+                Click.on(HomeScreen.DONE_LANGUAGE_BUTTON),
                 Click.on(HomeScreen.SKIP_SIGN_IN_BUTTON),
                 Click.on(HomeScreen.SEARCH_FIELD),
                 Enter.theValue(this.input).into(HomeScreen.SEARCH_FIELD),

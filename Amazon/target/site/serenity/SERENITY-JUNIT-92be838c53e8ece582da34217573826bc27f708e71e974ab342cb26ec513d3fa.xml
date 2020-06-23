@@ -1,1 +1,7 @@
-<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="0" name="Amazon.features.search.SearchIteamStory" skipped="0" tests="1" time="55.68" timestamp="2020-06-18 09:30:32"><testcase classname="Amazon.features.search.SearchIteamStory" name="Search results"/></testsuite>
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="1" name="Amazon.features.search.SearchIteamStory" skipped="0" tests="1" time="107.47" timestamp="2020-06-22 06:04:00"><testcase classname="Amazon.features.search.SearchIteamStory" name="Search results"><failure message="&#10;Expected: an element that is visible&#10;     but: no matching element found by xpath: //*[@text=&quot;SUPCASE&quot;]" type="java.lang.AssertionError">
+Expected: an element that is visible
+     but: no matching element found by xpath: //*[@text="SUPCASE"]</failure><system-err>
+Expected: an element that is visible
+     but: no matching element found by xpath: //*[@text="SUPCASE"]&#13;
+Amazon.features.search.SearchIteamStory.search_results(SearchIteamStory.java:37)&#13;
+</system-err></testcase></testsuite>

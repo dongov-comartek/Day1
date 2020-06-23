@@ -1,1 +1,7 @@
-<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="0" name="StartbucksDemo.features.search.TeamsOfUseStory" skipped="0" tests="1" time="21.03" timestamp="2020-06-18 08:57:31"><testcase classname="StartbucksDemo.features.search.TeamsOfUseStory" name="Teams of use verify title"/></testsuite>
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="1" name="StartbucksDemo.features.search.TeamsOfUseStory" skipped="0" tests="1" time="28.95" timestamp="2020-06-22 11:09:31"><testcase classname="StartbucksDemo.features.search.TeamsOfUseStory" name="Teams of use verify title"><failure message="&#10;Expected: &lt;true&gt;&#10;     but: was &lt;false&gt;" type="java.lang.AssertionError">
+Expected: &lt;true&gt;
+     but: was &lt;false&gt;</failure><system-err>
+Expected: &lt;true&gt;
+     but: was &lt;false&gt;&#13;
+StartbucksDemo.features.search.TeamsOfUseStory.teams_of_use_verify_title(TeamsOfUseStory.java:33)&#13;
+</system-err></testcase></testsuite>

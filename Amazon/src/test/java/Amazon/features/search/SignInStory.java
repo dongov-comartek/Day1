@@ -18,7 +18,7 @@ import static net.serenitybdd.screenplay.matchers.WebElementStateMatchers.isVisi
 @RunWith(SerenityRunner.class)
 public class SignInStory {
     Actor anna = Actor.named("Anna");
-    @Managed(driver = "Appium")
+    @Managed(driver = "appium")
     public WebDriver herBrowser;
     @Before
     public void annaCanBrowseTheWeb() {

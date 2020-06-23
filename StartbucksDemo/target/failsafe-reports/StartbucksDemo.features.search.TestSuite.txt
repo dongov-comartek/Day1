@@ -1,0 +1,27 @@
+-------------------------------------------------------------------------------
+Test set: StartbucksDemo.features.search.TestSuite
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 1, Errors: 1, Skipped: 0, Time elapsed: 63.942 s <<< FAILURE! - in StartbucksDemo.features.search.TestSuite
+input_email_blank_value(StartbucksDemo.features.search.SignInStory)  Time elapsed: 33.741 s  <<< ERROR!
+org.openqa.selenium.NoSuchElementException: 
+An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-TGIU5J9', ip: '192.168.105.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_211'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {app: E:\AutoTest\Appium\Day1\APK..., appPackage: com.starbucks.vn, automationName: uiautomator2, databaseEnabled: false, desired: {app: E:\AutoTest\Appium\Day1\APK..., automationName: uiautomator2, deviceName: 192.168.105.103:5555, hub: http://localhost:4723/wd/hub, loggingPrefs: {}, newCommandTimeout: 3000, platformName: android, platformVersion: 8.1}, deviceApiLevel: 27, deviceManufacturer: unknown, deviceModel: Samsung Galaxy S8, deviceName: 192.168.105.103:5555, deviceScreenDensity: 480, deviceScreenSize: 1440x2960, deviceUDID: 192.168.105.103:5555, hub: http://localhost:4723/wd/hub, javascriptEnabled: true, locationContextEnabled: false, loggingPrefs: org.openqa.selenium.logging..., networkConnectionEnabled: true, newCommandTimeout: 3000, pixelRatio: 3, platform: LINUX, platformName: Android, platformVersion: 8.1.0, statBarHeight: 72, takesScreenshot: true, viewportRect: {height: 2744, left: 0, top: 72, width: 1440}, warnings: {}, webStorageEnabled: false}
+Session ID: 9ed038f5-a200-4d44-9d70-acc8950e2ca8
+*** Element info: {Using=xpath, value=//*[@text="Please input Email"]}
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-TGIU5J9', ip: '192.168.105.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_211'
+Driver info: driver.version: AndroidDriver
+	at StartbucksDemo.features.search.SignInStory.input_email_blank_value(SignInStory.java:35)
+
+teams_of_use_verify_title(StartbucksDemo.features.search.TeamsOfUseStory)  Time elapsed: 28.95 s  <<< FAILURE!
+java.lang.AssertionError: 
+
+Expected: <true>
+     but: was <false>
+	at StartbucksDemo.features.search.TeamsOfUseStory.teams_of_use_verify_title(TeamsOfUseStory.java:33)
+

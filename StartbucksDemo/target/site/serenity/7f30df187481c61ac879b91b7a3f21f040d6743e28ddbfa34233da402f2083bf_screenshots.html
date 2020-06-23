@@ -135,7 +135,7 @@
             <a href="2a4631d87648e59c428d4cf0e9247f9d286e4679f436ca2ce872e931eb4dfd58.html"><i class="fa fa-comments-o"></i> Stories</a>
         </li>
     </ul>
-    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 18-06-2020 08:57</span>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 22-06-2020 11:08</span>
     <br style="clear:left"/>
 </div>
 
@@ -170,9 +170,9 @@
                 <table class="outcome-header">
                     <tr>
                         <td colspan="2" class="test-title-bar">
-                            <span class="outcome-icon"><a href='##beforetable'><i class='fa fa-check-circle-o success-icon fa-2x' title='SUCCESS'></i></a></span>
+                            <span class="outcome-icon"><a href='##beforetable'><i class='fa fa-exclamation-triangle error-icon fa-2x' title='ERROR'></i></a></span>
                             <span class="test-case-title">
-                                <span class="success-color">Input email blank value
+                                <span class="error-color">Input email blank value
                                     <span class="related-issue-title"></span>
                                 </span>
                             </span>
@@ -189,29 +189,59 @@
 
     <div id="beforetable"></div>
     <div id="contenttilttle">
+            <div class="screenshotFailure panel panel-danger">
+
+    <div style="display:block">
+        <div class="table">
+            <div class="row">
+                <div class="col-sm-10" style="padding-left:1.5em; padding-top:0.5em; padding-bottom:0.5em;">
+                    <span class="error-message error-message-title">No such element exception: An element could not be located on the page using the given search parameters.</span>
+                </div>
+                <div class="col-sm-2">
+                    <a class="btn btn-warning details-button" data-toggle="collapse" href="#stacktraceModal-overall""
+                       role="button" aria-expanded="false" aria-controls="multiCollapseExample1"><i class="far fa-eye"></i> More details</a>
+                </div>
+             </div>
+        </div>
+    <div>
+
+    <!-- Details Section -->
+    <div class="row stacktrace-details">
+      <div class="col">
+        <div class="collapse multi-collapse" id="stacktraceModal-overall">
+            <div class="card">
+                <div class="card-header">
+                    <h4>org.openqa.selenium.NoSuchElementException </h4>
+                </div>
+                <div class="card-body">
+                    <div>
+                        <pre>io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:239)<br />io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:41)<br />io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)<br />io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)<br />io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:61)<br />io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)<br />io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)<br />io.appium.java_client.DefaultGenericMobileDriver.findElementByXPath(DefaultGenericMobileDriver.java:151)<br />io.appium.java_client.AppiumDriver.findElementByXPath(AppiumDriver.java:1)<br />io.appium.java_client.android.AndroidDriver.findElementByXPath(AndroidDriver.java:1)<br />io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:57)<br />io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)<br />io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)<br />StartbucksDemo.questions.SignInErrorEmail.answeredBy(SignInErrorEmail.java:11)<br />StartbucksDemo.questions.SignInErrorEmail.answeredBy(SignInErrorEmail.java:8)<br />StartbucksDemo.features.search.SignInStory.input_email_blank_value(SignInStory.java:35)<br /></pre>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+                <div class="panel-body">
+                    <a href="pagesource6791414071895796668.html.txt" target="_blank" class="btn btn-info">HTML Source</a>
+                </div>
+            </div>
         <div class="slider-wrapper theme-default">
             <div id="slider">
-                <img src="0b53c0940e566fc3988b4687b83d944e23cd608068687b6618f4221636407fef.png" title=" Anna open signin" width="1440"/>
-                <img src="47dac9be9b4cc30e6425b962a2898e2a44517be015775ceb70ebcdc85d323338.png" title=" Anna clicks on sign in field" width="1440"/>
-                <img src="29a2ebe97576546fb3a806ee5d73c0a72bb647cf04bbb9953eb2a4f63a411ad4.png" title=" Anna clicks on sign in field (completed)" width="1440"/>
-                <img src="29a2ebe97576546fb3a806ee5d73c0a72bb647cf04bbb9953eb2a4f63a411ad4.png" title=" Anna open signin (completed)" width="1440"/>
-                <img src="68e005038a607e038e7b6d28b8e79013650068dcd19cdca7ab782aafdfaae249.png" title=" Anna sign in" width="1440"/>
-                <img src="68e005038a607e038e7b6d28b8e79013650068dcd19cdca7ab782aafdfaae249.png" title=" Anna enters '' into email field" width="1440"/>
-                <img src="68e005038a607e038e7b6d28b8e79013650068dcd19cdca7ab782aafdfaae249.png" title=" Anna enters 'abdc' into pass field" width="1440"/>
-                <img src="5b80a8d0bd61010bb0486f3fbdcb5933c53bed11b9bb97e0edbacaf30919f71e.png" title=" Anna enters 'abdc' into pass field (completed)" width="1440"/>
-                <img src="5b80a8d0bd61010bb0486f3fbdcb5933c53bed11b9bb97e0edbacaf30919f71e.png" title=" Anna clicks on sign in button" width="1440"/>
-                <img src="b56740148c1187efdb1c98a968f67d155ed20ca24fcdeacbd2a3704c3a412acc.png" title=" Anna clicks on sign in button (completed)" width="1440"/>
-                <img src="b56740148c1187efdb1c98a968f67d155ed20ca24fcdeacbd2a3704c3a412acc.png" title=" Anna sign in (completed)" width="1440"/>
-                <img src="f2234bc584b87f42d4ecfa4ba1ccdebf97cffafc29ba76b17bc3d762d02beb68.png" title=" Then sign in error email should be 'Please input Email'" width="1440"/>
-                <img src="f2234bc584b87f42d4ecfa4ba1ccdebf97cffafc29ba76b17bc3d762d02beb68.png" title=" Then sign in error email should be 'Please input Email' (completed)" width="1440"/>
-                <img src="b898289157b85476f05c1c08a5022db8a8cbbf93581c9f82637c57b687796cdb.png" title=" Anna sign in" width="1440"/>
-                <img src="b898289157b85476f05c1c08a5022db8a8cbbf93581c9f82637c57b687796cdb.png" title=" Anna enters 'koten@gmail.com' into email field" width="1440"/>
-                <img src="b898289157b85476f05c1c08a5022db8a8cbbf93581c9f82637c57b687796cdb.png" title=" Anna enters '' into pass field" width="1440"/>
-                <img src="42998a232accc82059d6930fceaebf4befd6a87e966e38e81859c17162450961.png" title=" Anna enters '' into pass field (completed)" width="1440"/>
-                <img src="42998a232accc82059d6930fceaebf4befd6a87e966e38e81859c17162450961.png" title=" Anna clicks on sign in button" width="1440"/>
-                <img src="6329696de170ef4d57a88b30019da96c5ab98106848be048044fb8b510874cda.png" title=" Anna clicks on sign in button (completed)" width="1440"/>
-                <img src="6329696de170ef4d57a88b30019da96c5ab98106848be048044fb8b510874cda.png" title=" Anna sign in (completed)" width="1440"/>
-                <img src="f9a77b18dfd87b99235576636ef9f6eb3ad593997612e6dddf4935ff5c6a5ac4.png" title=" Then sign in error pass should be 'Please input Password': <span class='success-color'>SUCCESS</span>" width="1440"/>
+                <img src="215276794f6296969226609839f92779dc67d0699235d65b4455753805c704f1.png" title=" Anna open signin" width="1440"/>
+                <img src="fade9dc6a6b9c13fc4350c11a9b2ad8415537a67faa7f2124682cfd5ebf0b82f.png" title=" Anna clicks on sign in field" width="1440"/>
+                <img src="cb78640b1a14af59f2a022edf12d29820dce52f9a7bfd0a4222d9a69937efda1.png" title=" Anna clicks on sign in field (completed)" width="1440"/>
+                <img src="cb78640b1a14af59f2a022edf12d29820dce52f9a7bfd0a4222d9a69937efda1.png" title=" Anna open signin (completed)" width="1440"/>
+                <img src="50cb98f9d71dda88686cd3b80ed43d2139bfd2419ae7bd14088fa1e7050ccb25.png" title=" Anna sign in" width="1440"/>
+                <img src="50cb98f9d71dda88686cd3b80ed43d2139bfd2419ae7bd14088fa1e7050ccb25.png" title=" Anna enters '' into email field" width="1440"/>
+                <img src="50cb98f9d71dda88686cd3b80ed43d2139bfd2419ae7bd14088fa1e7050ccb25.png" title=" Anna enters 'abdc' into pass field" width="1440"/>
+                <img src="37a066ff9d1d9432d907d11ed7ba48ac2635b952ae11e7bffb806bed9335f7ad.png" title=" Anna enters 'abdc' into pass field (completed)" width="1440"/>
+                <img src="37a066ff9d1d9432d907d11ed7ba48ac2635b952ae11e7bffb806bed9335f7ad.png" title=" Anna clicks on sign in button" width="1440"/>
+                <img src="d9acf4751affdc870f601089d34e06894ec38f7a78e4723462fb1f72683719b0.png" title=" Anna clicks on sign in button (completed)" width="1440"/>
+                <img src="d9acf4751affdc870f601089d34e06894ec38f7a78e4723462fb1f72683719b0.png" title=" Anna sign in (completed)" width="1440"/>
+                <img src="0131000762e91cb6987c6fa7bb2cd5a5c86fc182190ca0a224a0b8bea249cb7e.png" title=" Then sign in error email should be 'Please input Email': <span class='error-color'>ERROR</span>" width="1440"/>
             </div>
         </div>
 
